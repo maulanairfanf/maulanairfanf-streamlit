@@ -28,7 +28,7 @@ df['Accident_severity'].value_counts().plot(kind='bar')
 # Education levels of car drivers
 df['Educational_level'].value_counts().plot(kind='bar')
 
-pip install git+https://github.com/amueller/dabl/
+# pip install git+https://github.com/amueller/dabl/
 
 import dabl
 
@@ -187,7 +187,7 @@ rf.fit(X_trn2, y_trn2)
 # save the model object
 joblib.dump(rf, "rta_model_deploy3.joblib", compress=9)
 
-pip install -r requirements.txt
+# pip install -r requirements.txt
 
 # import all the app dependencies
 import pandas as pd
