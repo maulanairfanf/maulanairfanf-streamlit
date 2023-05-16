@@ -6,3 +6,5 @@ joblib
 matplotlib
 ipython
 Pillow
+dabl
+git+https://github.com/amueller/dabl/
